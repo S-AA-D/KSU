@@ -1,0 +1,2 @@
+URL = 'https://edugate.ksu.edu.sa/ksu/ui/student/offeredCourses/index/offeredCoursesIndex.faces'
+DRIVER_PATH =r"D:/sz0d/main/Desktop/programing/python/projects/web_scraping/selenium/selenium_drvers/chromedriver_win32/chromedriver.exe"
