@@ -23,7 +23,7 @@ class Scraper(webdriver.Chrome):
         self.get(CONST.URL)
     
 
-    def sign_in(self , username=442102672 ,password= 'RQCE!@vmwo52'):
+    def sign_in(self , username='USER NAME HERE BUT AS INTEGER' ,password= 'YOUR PASSWORD HERE'):
         self.implicitly_wait(10)
 
         #sign in'
@@ -93,7 +93,7 @@ class Scraper(webdriver.Chrome):
         for d in data:
             if not self.data.__contains__(d):
                 #send mail about a new appointment had been available
-                mail = Email("s.a.a.d.alsahly.al.sahly@gmail.com","sz0d.717@gmail.com","lrfvkpwggojixkow")
+                mail = Email("SENDER EMAIL HERE","RECEIVER EMAIL HERE","MAIL CODE")
                 mail.send_mail(f"{d}",f"")
                 self.data.append(d)
 
