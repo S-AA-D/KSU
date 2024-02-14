@@ -1,0 +1,2 @@
+URL = 'https://edugate.ksu.edu.sa/ksu/ui/guest/timetable/index/mainScheduleTreeCoursesIndex.faces'
+DRIVER_PATH =r"D:/sz0d/main/Desktop/programing/python/projects/web_scraping/selenium/selenium_drvers/chromedriver_win32/chromedriver.exe"
