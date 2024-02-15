@@ -34,10 +34,10 @@ class Scraper(webdriver.Chrome):
         student_option.click()
 
         user_name = self.find_element(By.ID , 'username')
-        user_name.send_keys(442102672)
+        user_name.send_keys(username)
        
         password = self.find_element(By.ID , 'password')
-        password.send_keys('RQCE!@vmwo52')
+        password.send_keys(password)
 
         login_btn = self.find_element(By.ID , 'loginButton')
         login_btn.click()
